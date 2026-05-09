@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
     return Consumer<ThemeViewModel>(
       builder: (context, themeVM, child) {
         return MaterialApp(
-          title: 'Movie Catalog App',
+          title: 'MovieDex',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             useMaterial3: true,
